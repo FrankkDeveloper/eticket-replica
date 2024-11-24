@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eticket</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navmain">
+          <img src="IMG/nav-logo.png" alt="" class="navmain__logo" />
+          <form action="" class="navmain__search">
+            <input
+              type="search"
+              name="searc"
+              id="search"
+              placeholder="Buscar artistas y/o eventos"
+            />
+            <input type="button" value="Buscar" class="navbuttons__button" />
+          </form>
+          <div class="navbuttons">
+            <button class="navbuttons__button navbuttons__button-sesion">
+              Iniciar sesion
+            </button>
+            <button class="navbuttons__button navbuttons__button-register">
+              Registrate
+            </button>
+          </div>
+        </div>
+        <div class="navlist">
+          <ul>
+            <li class="navlist item">Conciertos</li>
+            <li class="navlist item">Deportes</li>
+            <li class="navlist item">Teatro</li>
+            <li class="navlist item">Culturales</li>
+            <li class="navlist item">Comedia</li>
+            <li class="navlist item">Familiares</li>
+            <li class="navlist item">Congresos</li>
+            <li class="navlist item">Festivales</li>
+          </ul>
+          <div class="navlist__select">
+            <select name="venta" id="venta">
+              <option value="venta" selected>puntos de venta</option>
+              <option value="">TODO COLOMBIA</option>
+            </select>
+            <select name="ayuda" id="ayuda" class="form-select">
+              <option value="ayuda" selected>Ayuda</option>
+              <option value="vende-evento">Vende tu evento con nosotros</option>
+              <option value="recoge-boletos">¡Recoge tus boletos!</option>
+              <option value="donde-comprar">¿Dónde Comprar?</option>
+              <option value="suscribete-boletin">Suscríbete al Boletín</option>
+              <option value="promociones">Promociones</option>
+              <option value="preguntas-frecuentes">Preguntas Frecuentes</option>
+              <option value="comunicados">Comunicados</option>
+              <option value="contacto">Contacto</option>
+            </select>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article class="carousel">
+        <img src="IMG/img_carousel.jpg" alt="" />
+        <div class="corousel__section">
+          <button type="button" class="carousel__button">
+            COMPRAR BOLETOS
+          </button>
+        </div>
+      </article>
+      <div class="container">
+        <section class="section-advertisement">
+          <div class="section__one">
+            <img src="IMG/img_section-1.jpg" alt="" />
+            <div class="card">
+              <div class="card card__top">
+                <div class="card__item card__item--border">
+                  <h2>FERIA VASSAR DICIEMBRE 2024</h2>
+                  <p>3 al 8 de diciembre de 2024</p>
+                </div>
+                <div class="card__item">
+                  <p>Parque Metropolitano El Country</p>
+                  <p>Bogotá, Cundinamarca</p>
+                  <p>Av. C. 127 #11d-9</p>
+                </div>
+              </div>
+              <div class="card card__bottom">
+                <div>
+                  <h4>ENTRE SEMANA</h4>
+                  <p>PREVENTA CÓDIGO DESCUENTO EMPRENDEDOR</p>
+                  <b>$20.000,00</b>
+                  <span>🔒</span>
+                </div>
+              </div>
+              <div class="card card__bottom">
+                <div>
+                  <h4>SABADO</h4>
+                  <p>PREVENTA CÓDIGO DESCUENTO EMPRENDEDOR</p>
+                  <b>$20.000,00</b>
+                  <span>🔒</span>
+                </div>
+              </div>
+              <div class="card card__bottom">
+                <div>
+                  <h4>DOMINGO</h4>
+                  <p>PREVENTA CÓDIGO DESCUENTO EMPRENDEDOR</p>
+                  <b>$20.000,00</b>
+                  <span>🔒</span>
+                </div>
+              </div>
+              <div class="card card__bottom card__bottom--text">
+                <b>Precios expresados en Peso (COP).</b>
+                <p>
+                  Evento sujeto a cargo x servicio por el sistema eticket (IVA
+                  INCLUIDO) , los cuales están incluidos en el precio listado
+                </p>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="carousel__button">
+            COMPRAR BOLETOS
+          </button>
+        </section>
+        <section class="section-text">
+          <h4 class="section-text__title">PARQUE METROPOLITANO EL COUNTRY</h4>
+          <img class="section-text__img" src="/IMG/img_section-2.jpg" alt="" />
+          <p class="section-text__desc">
+            Los mapas reflejan la ubicación aproximada de las secciones para
+            este lugar. La distribución real de los lugares y asientos puede
+            variar sin previo aviso
+          </p>
+        </section>
+        <section class="section-text">
+          <div class="catalog__header">
+            <h1 class="catalog__title">Eventos en tu Ciudad</h1>
+          </div>
+          <div class="catalog">
+            <div class="catalog__card">
+              <img
+                src="IMG/events/event-1.jpg"
+                alt="Evento 1"
+                class="catalog__card-image"
+              />
+              <h3 class="catalog__card-title">APOLO 7</h3>
+              <p class="catalog__card-location">Ubicación: Bogotá</p>
+              <button class="catalog__card-button">Ver Eventos</button>
+            </div>
+            <div class="catalog__card">
+              <img
+                src="IMG/events/event-2.jpg"
+                alt="Evento 2"
+                class="catalog__card-image"
+              />
+              <h3 class="catalog__card-title">LEO RIZZI</h3>
+              <p class="catalog__card-location">Ubicación: Medellín</p>
+              <button class="catalog__card-button">Ver Eventos</button>
+            </div>
+            <div class="catalog__card">
+              <img
+                src="IMG/events/event-3.jpg"
+                alt="Evento 3"
+                class="catalog__card-image"
+              />
+              <h3 class="catalog__card-title">
+                VINO AL PARQUE V EDICIÓN DESPIERTA TUS SENTIDOS
+              </h3>
+              <p class="catalog__card-location">Ubicación: Cali</p>
+              <button class="catalog__card-button">Ver Eventos</button>
+            </div>
+            <div class="catalog__card">
+              <img
+                src="IMG/events/event-4.jpg"
+                alt="Evento 4"
+                class="catalog__card-image"
+              />
+              <h3 class="catalog__card-title">ANDREA BOCELLI</h3>
+              <p class="catalog__card-location">Ubicación: Barranquilla</p>
+              <button class="catalog__card-button">Ver Eventos</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__sections">
+          <div class="footer__sections-1">
+            <ul class="footer__list">
+              <li class="footer__item">Inicio</li>
+              <li class="footer__item">Conciertos</li>
+              <li class="footer__item">Deportes</li>
+              <li class="footer__item">Teatro</li>
+              <li class="footer__item">Culturales</li>
+              <li class="footer__item">Comedia</li>
+              <li class="footer__item">Familiares</li>
+              <li class="footer__item">Congresos</li>
+              <li class="footer__item">Festivales</li>
+            </ul>
+          </div>
+          <div class="footer__sections-2">
+            <ul class="footer__list">
+              <li class="footer__item">¡Recoge tus boletos!</li>
+              <li class="footer__item">Ubicación de Puntos de venta</li>
+              <li class="footer__item">Suscríbete al boletín</li>
+              <li class="footer__item">Promociones</li>
+              <li class="footer__item">Vende tus boletos en eticket</li>
+              <li class="footer__item">Preguntas Frecuentes</li>
+              <li class="footer__item">Comunicados</li>
+              <li class="footer__item">Contáctanos</li>
+              <li class="footer__item">Políticas de Privacidad</li>
+              <li class="footer__item">Términos y Condiciones</li>
+              <li class="footer__item">PQRS</li>
+              <li class="footer__item">PULEP</li>
+              <li class="footer__item">SIC</li>
+            </ul>
+          </div>
+          <div class="footer__sections-3">
+            <img src="./IMG/wps-contact.gif" alt="" />
+            <div class="footer__socialmedia">
+              <img src="IMG/social-media/twitter.png" alt="">
+              <span>siguenos</span>
+              <img src="IMG/social-media/facebook.png" alt="">
+              <span>miranos</span>
+              <img src="IMG/social-media/instagram.png" alt="">
+              <span>quierenos</span>
+            </div>
+            <p> La vida esta llena de experiencias... <br>
+                #experienciaeticket😄
+            </p>
+          </div>
+        </div>
+      <div class="footer__bottom">
+        © 2024 :: eticket :: Todos los Derechos Reservados ::
+        https://www.eticket.co/
+      </div>
+    </footer>
+  </body>
+</html>
